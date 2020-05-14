@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73357b8f3779d1c40a39ea034b4fd0fe, type: 3}
+  m_Name: Car Controller
+  m_EditorClassIdentifier: 
+  SpeedTextName: SpeedText
+  GearTextName: GearText
+  FWD: 1
+  RWD: 1
+  CarMass: 2020
+  FrontWheelMass: 13.5
+  RearWheelMass: 13.5
+  MaxSpeed: 325
+  motorForce: 310
+  gearRatio:
+  - 3.692
+  - 2.15
+  - 1.406
+  - 1.025
+  - 0.787
+  - 0.625
+  - 0.519
+  Transmission: 00010000000000
+  currentTransmission: 2
